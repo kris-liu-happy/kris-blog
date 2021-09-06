@@ -38,7 +38,7 @@ const DirectoryChild = (props: any) => {
   const { childs } = props
   return (
     <>
-      {childs.map((item: childDirectory) => {
+      {childs.map((item: any) => {
         return (
           <h4 key={item.title}>
             <Link href={item.url}>{item.title}</Link>
