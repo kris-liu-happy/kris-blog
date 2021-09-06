@@ -1,0 +1,7 @@
+export { default as Code } from "./Code"
+export { default as Texts } from "./Texts"
+export { default as Text } from "./Text"
+export { default as Title } from "./Title"
+export { default as Answer } from "./Answer"
+export { default as Images } from "./Image"
+export { default as Blank } from "./Blank"

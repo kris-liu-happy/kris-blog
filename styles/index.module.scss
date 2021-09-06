@@ -1,3 +1,31 @@
-.test {
-  color: red;
+@import './color.scss';
+
+.krisIndexTitle {
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
 }
+.homePage {
+  margin: 0 auto;
+  width: 40%;
+  padding: 10px;
+
+  .homePage_title_li {
+    width:100%;
+    padding: 10px;
+
+    h3 {
+      // font-size: 2rem;
+    }
+
+    h4 {
+      padding-left: 40px;
+      padding-top: 10px;
+    }
+
+    h4:hover {
+      color: color('primary', 'base')
+    }
+  }
+}
+
